@@ -79,6 +79,9 @@ jobs:
 
       - run: npx typedoc --entryPointStrategy expand ./src --plugin typedoc-github-theme
 
+      - name: Setup Gitsign
+        uses: chainguard-dev/actions/setup-gitsign@main
+
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
