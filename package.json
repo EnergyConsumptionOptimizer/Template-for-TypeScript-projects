@@ -59,18 +59,7 @@
     "typescript": "^5.9.2",
     "vitest": "^3.2.4",
     "tsconfig-paths": "^4.2.0",
-    "vite-tsconfig-paths": "^5.1.4"
-  },
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "preset": "conventionalcommits",
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/github"
-    ]
+    "vite-tsconfig-paths": "^5.1.4",
+    "semantic-release-preconfigured-conventional-commits": "^1.1.152"
   }
 }
